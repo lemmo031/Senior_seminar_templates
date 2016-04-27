@@ -36,23 +36,81 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Ray Traced Scene}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=60mm]{Glasses_800_edit.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
 
   \frametitle{Outline}
 \tableofcontents
 \end{frame}
 
-\section{Bounding Volume Hierarchies}
+\section{Background}
 
 \begin{frame}
-  \frametitle{BVH Example}
+  \frametitle{Ray Tracing}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=30mm]{bvh_diagram.pdf}
-\includegraphics[height=30mm]{bvh_tree.pdf}
+\includegraphics[height=60mm]{Ray_trace_diagram.pdf}
 \end{figure}
 \end{frame}
 
-\section{Z-order Curves}
+\begin{frame}
+  \frametitle{Primitives}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=60mm]{Dolphin_triangle_mesh.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Axis-Aligned Bounding Boxes}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{aabb.png}
+\end{figure}
+\end{frame}
+
+\section{Main Content}
+
+\begin{frame}
+  \frametitle{Grouped Primitives}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{primitive-box.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=40mm]{primitive_tree_narrow.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Scene}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{Z-curve-primitives.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Code Grid}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{Z-curve.png}
+\end{figure}
+\end{frame}
 
 \begin{frame}
   \frametitle{Morton Codes}
@@ -83,26 +141,55 @@
 \end{figure}
 \end{frame}
 
-\section{Binary Radix Trees}
+\begin{frame}
+  \frametitle{Scene}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{Z-curve-primitives.png}
+\end{figure}
+\end{frame}
 
 \begin{frame}
-  \frametitle{Binary Radix Tree Example}
-  
-\begin{columns}[t]
-
-\column{.5\textwidth}
+  \frametitle{Binary Radix Tree}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=40mm]{BinaryRadixTree.pdf}
+\includegraphics[height=45mm]{radix_tree.png}
 \end{figure}
-
-\column{.5\textwidth}
-\begin{figure}
-%%% note: the file is in the same folder as your .tex file
-\includegraphics[height=40mm]{Z-curve.pdf}
-\end{figure}
-\end{columns}
 \end{frame}
+
+\begin{frame}
+  \frametitle{Internal Node Array}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{radix_array.png}
+\end{figure}
+\end{frame}
+
+
+
+
+
+
+\section{Results}
+
+%\begin{frame}
+%  \frametitle{Binary Radix Tree Example}
+%  
+%\begin{columns}[t]
+%
+%\column{.5\textwidth}
+%\begin{figure}
+%%%% note: the file is in the same folder as your .tex file
+%\includegraphics[height=40mm]{BinaryRadixTree.pdf}
+%\end{figure}
+%
+%\column{.5\textwidth}
+%\begin{figure}
+%%%% note: the file is in the same folder as your .tex file
+%\includegraphics[height=40mm]{Z-curve.pdf}
+%\end{figure}
+%\end{columns}
+%\end{frame}
 
 \begin{frame}
   \frametitle{Discussion}
