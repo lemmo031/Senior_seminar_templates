@@ -40,7 +40,14 @@
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
 \includegraphics[height=60mm]{Glasses_800_edit.png}
+\urlstyle{rm}
+\hspace{6pt}\hbox{\tiny{\url{https://en.wikipedia.org/wiki/Ray_tracing_(graphics)}}}
 \end{figure}
+
+%\hspace{12pt}\hbox{\scriptsize Credit:\thinspace{\small\itshape Kathleen Gilje}}
+
+
+%\href{https://en.wikipedia.org/wiki/Ray_tracing_(graphics)}{https://en.wikipedia.org/wiki/Ray_tracing_(graphics)}
 \end{frame}
 
 \begin{frame}
@@ -52,18 +59,22 @@
 \section{Background}
 
 \begin{frame}
-  \frametitle{Ray Tracing}
-\begin{figure}
-%%% note: the file is in the same folder as your .tex file
-\includegraphics[height=60mm]{Ray_trace_diagram.pdf}
-\end{figure}
-\end{frame}
-
-\begin{frame}
   \frametitle{Primitives}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
 \includegraphics[height=60mm]{Dolphin_triangle_mesh.png}
+\urlstyle{rm}
+\hspace{6pt}\hbox{\tiny{\url{https://en.wikipedia.org/wiki/Triangle_mesh}}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Ray Tracing}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=60mm]{Ray_trace_diagram.pdf}
+\urlstyle{rm}
+\hspace{6pt}\hbox{\tiny{\url{https://en.wikipedia.org/wiki/Ray_tracing_(graphics)}}}
 \end{figure}
 \end{frame}
 
@@ -71,7 +82,9 @@
   \frametitle{Axis-Aligned Bounding Boxes}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=45mm]{aabb.png}
+\includegraphics[height=60mm]{aabb.png}
+\urlstyle{rm}
+\hspace{6pt}\hbox{\tiny{\url{http://www.scratchapixel.com}}}
 \end{figure}
 \end{frame}
 
@@ -91,62 +104,271 @@
 \column{.5\textwidth}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=40mm]{primitive_tree_narrow.png}
+\includegraphics[height=45mm]{primitive_tree_narrow.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+%\begin{frame}
+%  \frametitle{Scene}
+%\begin{figure}
+%%%% note: the file is in the same folder as your .tex file
+%\includegraphics[height=45mm]{Z-curve-primitives.png}
+%\end{figure}
+%\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-zoomed.png}
 \end{figure}
 \end{columns}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Scene}
+  \frametitle{Morton Codes}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=45mm]{Z-curve-primitives.png}
+\includegraphics[height=70mm]{Z-curve.png}
 \end{figure}
 \end{frame}
 
+%\begin{frame}
+%  \frametitle{Morton Codes}
+%\begin{columns}[t]
+%
+%\column{.5\textwidth}
+%\centering
+%\begin{itemize}
+%\item Interleave binary representations of coordinate values
+%\item Transforms multidimensional coordinates into a single value
+%\item Morton Code contains location information
+%\item Used to sort objects
+%\end{itemize}
+%
+%\column{.5\textwidth}
+%\begin{figure}
+%%%% note: the file is in the same folder as your .tex file
+%\includegraphics[height=45mm]{Z-curve.pdf}
+%\end{figure}
+%\end{columns}
+%\end{frame}
+
+%\begin{frame}
+%  \frametitle{Shape of a Z-order Curve}
+%\begin{figure}
+%%%% note: the file is in the same folder as your .tex file
+%\includegraphics[height=45mm]{542px-Four-level_Z.png}
+%\end{figure}
+%\end{frame}
+
 \begin{frame}
-  \frametitle{Morton Code Grid}
+  \frametitle{Morton Codes}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=45mm]{Z-curve.png}
+\includegraphics[height=70mm]{Z-curve-primitives.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Morton Codes}
+  
 \begin{columns}[t]
-
-\column{.5\textwidth}
-\centering
-\begin{itemize}
-\item Interleave binary representations of coordinate values
-\item Transforms multidimensional coordinates into a single value
-\item Morton Code contains location information
-\item Used to sort objects
-\end{itemize}
 
 \column{.5\textwidth}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=45mm]{Z-curve.pdf}
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+%\includegraphics[height=55mm]{keys_0.png}
 \end{figure}
 \end{columns}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Shape of a Z-order Curve}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=45mm]{542px-Four-level_Z.png}
+\includegraphics[height=55mm]{Z-curve-primitives.png}
 \end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_0.png}
+\end{figure}
+\end{columns}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Scene}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
 \begin{figure}
 %%% note: the file is in the same folder as your .tex file
-\includegraphics[height=45mm]{Z-curve-primitives.png}
+\includegraphics[height=55mm]{Z-curve-primitives.png}
 \end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_1.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_2.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_3.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_4.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_5.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_6.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{Z-curve-primitives.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{keys_7.png}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Morton Codes}
+  
+\begin{columns}[t]
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=45mm]{primitive-box.png}
+\end{figure}
+
+\column{.5\textwidth}
+\begin{figure}
+%%% note: the file is in the same folder as your .tex file
+\includegraphics[height=55mm]{radix_tree_bare.png}
+\end{figure}
+\end{columns}
 \end{frame}
 
 \begin{frame}

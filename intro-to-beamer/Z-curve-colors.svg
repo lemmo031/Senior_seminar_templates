@@ -16,7 +16,7 @@
    id="svg6117"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Z-curve.svg"
+   sodipodi:docname="Z-curve-colors.svg"
    inkscape:export-filename="/home/lemmo031/SrSem/Senior_seminar_templates/intro-to-beamer/primitive-box.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -182,7 +182,7 @@
        xlink:href="#linearGradient13918"
        id="linearGradient13900"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.4720983,0,0,0.38142774,370.23797,443.79118)"
+       gradientTransform="matrix(0.47514234,0,0,0.38553259,368.09869,440.84226)"
        x1="110.24848"
        y1="712.89923"
        x2="699.36981"
@@ -206,8 +206,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1716901"
-     inkscape:cx="217.29181"
-     inkscape:cy="631.59067"
+     inkscape:cx="382.84037"
+     inkscape:cy="598.56618"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -8949,54 +8949,54 @@
      inkscape:label="Boxes"
      style="display:inline">
     <rect
-       style="fill:url(#linearGradient13878);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient13878);fill-opacity:1;stroke:#da831a;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect13870"
-       width="590.10406"
-       height="514.60162"
-       x="110.33794"
-       y="202.07695" />
+       width="606.96271"
+       height="530.23169"
+       x="101.5444"
+       y="194.8136" />
     <rect
-       y="201.60493"
-       x="109.86592"
-       height="279.72729"
-       width="197.27388"
+       y="198.33749"
+       x="105.49504"
+       height="287.06384"
+       width="207.72258"
        id="rect13880"
-       style="fill:url(#linearGradient13884);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient13884);fill-opacity:1;stroke:#da1a2f;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="fill:url(#linearGradient13896);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient13896);fill-opacity:1;stroke:#782ab0;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect13894"
-       width="37.480583"
-       height="116.44928"
-       x="109.61384"
-       y="365.13501" />
+       width="39.614258"
+       height="118.58298"
+       x="109.1871"
+       y="363.42807" />
     <rect
-       style="fill:url(#linearGradient13892);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient13892);fill-opacity:1;stroke:#1e2eda;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect13890"
-       width="118.62881"
-       height="122.09506"
-       x="188.68204"
+       width="123.32288"
+       height="124.65546"
+       x="186.54837"
        y="201.4339" />
     <rect
-       y="522.2821"
-       x="269.08405"
-       height="194.78624"
-       width="431.74771"
+       y="513.79034"
+       x="267.67886"
+       height="207.95073"
+       width="437.8255"
        id="rect13886"
-       style="fill:url(#linearGradient13888);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient13888);fill-opacity:1;stroke:#238621;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="fill:url(#linearGradient13900);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient13900);fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect13898"
-       width="278.58975"
-       height="194.95628"
-       x="422.3269"
-       y="522.19727" />
+       width="284.19003"
+       height="201.53508"
+       x="418.21307"
+       y="517.10498" />
     <rect
-       y="522.02136"
-       x="422.15131"
-       height="115.56155"
-       width="115.15898"
+       y="520.10107"
+       x="421.5112"
+       height="119.40211"
+       width="117.93276"
        id="rect13902"
-       style="fill:url(#linearGradient13904);fill-opacity:1;stroke:#da831a;stroke-width:1.64499998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient13904);fill-opacity:1;stroke:#21b0bc;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot13942"
