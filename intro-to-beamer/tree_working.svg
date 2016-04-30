@@ -325,15 +325,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="107.52932"
-     inkscape:cy="349.1771"
+     inkscape:cx="-67.47068"
+     inkscape:cy="358.4465"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-y="120"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -521,8 +521,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Internal Nodes"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 92,383.3622 -162,56"
@@ -1377,7 +1376,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Arrows"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g52124">
